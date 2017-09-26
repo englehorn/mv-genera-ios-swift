@@ -123,10 +123,11 @@ class ImageScrollView: UIScrollView, UIScrollViewDelegate {
     
     func scaleToRestoreAfterRotation() -> CGFloat{
         var contentScale = self.zoomScale
-        if (contentScale <= self.minimumZoomScale + CGFloat(FLT_EPSILON)){
+        if (contentScale <= self.minimumZoomScale + CGFloat(Float.ulpOfOne)){
             contentScale = 0
         }
         return contentScale
+        
         
  
     }
