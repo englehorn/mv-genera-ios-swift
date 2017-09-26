@@ -121,7 +121,7 @@
 		A4A9B0D21C76BC4500CA536A /* paging example.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A4A9B0D11C76BC4500CA536A /* paging example.storyboard */; };
 		A4A9B0D41C76BE1000CA536A /* TestPageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4A9B0D31C76BE1000CA536A /* TestPageViewController.swift */; };
 		A4A9B0D61C76BE3B00CA536A /* SpeciImageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4A9B0D51C76BE3B00CA536A /* SpeciImageViewController.swift */; };
-		A4AAAA0B1C4F5C910024BC53 /* images in Resources */ = {isa = PBXBuildFile; fileRef = A4AAAA0A1C4F5C910024BC53 /* images */; };
+		A4AAAA0B1C4F5C910024BC53 /* Images in Resources */ = {isa = PBXBuildFile; fileRef = A4AAAA0A1C4F5C910024BC53 /* Images */; };
 		A4AAAA0D1C4F5CA10024BC53 /* audio in Resources */ = {isa = PBXBuildFile; fileRef = A4AAAA0C1C4F5CA10024BC53 /* audio */; };
 		A4AAAA0F1C4F5CB40024BC53 /* data.json in Resources */ = {isa = PBXBuildFile; fileRef = A4AAAA0E1C4F5CB40024BC53 /* data.json */; };
 		A4AC72381F42C25F00EB6D78 /* interface-images in Resources */ = {isa = PBXBuildFile; fileRef = A4AC72371F42C25F00EB6D78 /* interface-images */; };
@@ -287,7 +287,7 @@
 		A4A9B0D11C76BC4500CA536A /* paging example.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = "paging example.storyboard"; sourceTree = "<group>"; };
 		A4A9B0D31C76BE1000CA536A /* TestPageViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; lineEnding = 0; name = TestPageViewController.swift; path = CustomViewControllers/TestPageViewController.swift; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
 		A4A9B0D51C76BE3B00CA536A /* SpeciImageViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; lineEnding = 0; path = SpeciImageViewController.swift; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
-		A4AAAA0A1C4F5C910024BC53 /* images */ = {isa = PBXFileReference; lastKnownFileType = folder; path = images; sourceTree = "<group>"; };
+		A4AAAA0A1C4F5C910024BC53 /* Images */ = {isa = PBXFileReference; lastKnownFileType = folder; path = Images; sourceTree = "<group>"; };
 		A4AAAA0C1C4F5CA10024BC53 /* audio */ = {isa = PBXFileReference; lastKnownFileType = folder; path = audio; sourceTree = "<group>"; };
 		A4AAAA0E1C4F5CB40024BC53 /* data.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; name = data.json; path = Data/data.json; sourceTree = "<group>"; };
 		A4AC72371F42C25F00EB6D78 /* interface-images */ = {isa = PBXFileReference; lastKnownFileType = folder; path = "interface-images"; sourceTree = "<group>"; };
@@ -460,7 +460,7 @@
 				A4C761721D4B354800B9A660 /* View Controller NIB */,
 				A4D78D1F1C51AB240099D0FC /* App Images */,
 				A4AAAA0C1C4F5CA10024BC53 /* audio */,
-				A4AAAA0A1C4F5C910024BC53 /* images */,
+				A4AAAA0A1C4F5C910024BC53 /* Images */,
 				A4AAAA071C4F5C6A0024BC53 /* Data */,
 				A499A7D81C4DDD080020F3DD /* Class Extensions */,
 				A499A7D71C4DDBC80020F3DD /* Core Data Managed Classes */,
@@ -768,7 +768,7 @@
 				A48533161C7566CA005A0C0A /* tabBar2_images.png in Resources */,
 				A48532D81C7566BD005A0C0A /* AudioTrackHighlightInactive.png in Resources */,
 				A485330A1C7566CA005A0C0A /* tabBar1_alphabetical.png in Resources */,
-				A4AAAA0B1C4F5C910024BC53 /* images in Resources */,
+				A4AAAA0B1C4F5C910024BC53 /* Images in Resources */,
 				A4AFEAB91CE43E72009A4F02 /* ViewImage.png in Resources */,
 				A4C761711D4B299400B9A660 /* Icons in Resources */,
 				A4EF9E3E1D581A3300815553 /* playButtonSmall.png in Resources */,
