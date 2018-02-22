@@ -16,6 +16,7 @@ extension Subgroup {
     @NSManaged  var label: String?
     @NSManaged  var sublabel: String?
     @NSManaged  var subgroupID: String?
+    @NSManaged  var order: NSNumber?
     @NSManaged  var speci: NSSet?
     @NSManaged  var group: Group?
 

@@ -340,6 +340,13 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		802523C4203F060600666366 /* Interface-Images */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = "Interface-Images";
+			sourceTree = "<group>";
+		};
 		A4026D991C72F2600047DFCC /* CustomViews */ = {
 			isa = PBXGroup;
 			children = (
@@ -450,6 +457,7 @@
 			isa = PBXGroup;
 			children = (
 				A4AC72371F42C25F00EB6D78 /* Interface-Images */,
+				802523C4203F060600666366 /* Interface-Images */,
 				A4C761701D4B299400B9A660 /* Icons */,
 				A4A380E21CD9CAE8006A25BE /* TestGroup */,
 				A49F96E01C73C806008B12F8 /* Storyboards */,

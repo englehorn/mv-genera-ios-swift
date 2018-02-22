@@ -246,7 +246,7 @@ class SpeciListTableViewController: UITableViewController, NSFetchedResultsContr
         fetchRequest.fetchBatchSize = 100
         
         // Edit the sort key as appropriate.
-        let subgroupSort = NSSortDescriptor(key:"subgroup", ascending:true)
+        let subgroupSort = NSSortDescriptor(key:"subgroup.order.label", ascending:true)
         let sortDescriptor = NSSortDescriptor(key: "label", ascending: true, selector: #selector(NSString.localizedStandardCompare(_:)))
         
         

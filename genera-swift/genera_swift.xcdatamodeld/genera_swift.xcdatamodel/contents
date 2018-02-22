@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<model type="com.apple.IDECoreDataModeler.DataModel" documentVersion="1.0" lastSavedToolsVersion="11232" systemVersion="15G1004" minimumToolsVersion="Xcode 7.3" sourceLanguage="Swift" userDefinedModelVersionIdentifier="">
+<model type="com.apple.IDECoreDataModeler.DataModel" documentVersion="1.0" lastSavedToolsVersion="13772" systemVersion="17D102" minimumToolsVersion="Xcode 7.3" sourceLanguage="Swift" userDefinedModelVersionIdentifier="">
     <entity name="Audio" representedClassName=".Audio" syncable="YES">
         <attribute name="altText" optional="YES" attributeType="String" syncable="YES"/>
         <attribute name="audioDescription" optional="YES" attributeType="String" syncable="YES"/>
@@ -59,6 +59,7 @@
     </entity>
     <entity name="Subgroup" representedClassName=".Subgroup" syncable="YES">
         <attribute name="label" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="order" optional="YES" attributeType="Integer 32" defaultValueString="0" usesScalarValueType="NO" syncable="YES"/>
         <attribute name="subgroupID" optional="YES" attributeType="String" syncable="YES"/>
         <attribute name="sublabel" optional="YES" attributeType="String" syncable="YES"/>
         <relationship name="group" optional="YES" maxCount="1" deletionRule="Nullify" destinationEntity="Group" inverseName="subgroups" inverseEntity="Group" syncable="YES"/>
@@ -93,8 +94,8 @@
         <element name="Group" positionX="288" positionY="306" width="128" height="195"/>
         <element name="Image" positionX="270" positionY="279" width="128" height="165"/>
         <element name="Speci" positionX="261" positionY="198" width="128" height="285"/>
+        <element name="Subgroup" positionX="306" positionY="351" width="128" height="135"/>
         <element name="Template" positionX="324" positionY="351" width="128" height="180"/>
         <element name="TemplateTab" positionX="342" positionY="378" width="128" height="180"/>
-        <element name="Subgroup" positionX="306" positionY="351" width="128" height="120"/>
     </elements>
 </model>

@@ -278,6 +278,9 @@ class AppDelegate: UIResponder, UIApplicationDelegate, UISplitViewControllerDele
                                 testSubGroup.label = tmpSubgroup["label"]
                                 testSubGroup.sublabel = tmpSubgroup["sublabel"]
                                 testSubGroup.subgroupID = tmpSubgroup["subgroupID"]
+                                if let order = tmpSubgroup["order"]{
+                                    testSubGroup.order = Int(order) as NSNumber?
+                                }
                                 if let groupID = tmpSubgroup["groupID"]
                                 {
                                     let predicate = NSPredicate(format:"groupid=='\(groupID)'")
