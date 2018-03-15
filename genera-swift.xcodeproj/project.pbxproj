@@ -338,13 +338,6 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		80AB24552059F1E000B5E19C /* Interface-Images */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = "Interface-Images";
-			sourceTree = "<group>";
-		};
 		A4026D991C72F2600047DFCC /* CustomViews */ = {
 			isa = PBXGroup;
 			children = (
@@ -459,7 +452,6 @@
 				A49F96E01C73C806008B12F8 /* Storyboards */,
 				A4026D9C1C7304320047DFCC /* stylesheets */,
 				A4026D991C72F2600047DFCC /* CustomViews */,
-				80AB24552059F1E000B5E19C /* Interface-Images */,
 				A4A0A9B81C71760E00BECB6C /* Templates */,
 				A4D78D231C51AE480099D0FC /* ViewControllers */,
 				A4C761721D4B354800B9A660 /* View Controller NIB */,
@@ -701,6 +693,7 @@
 				TargetAttributes = {
 					A499A7841C4DA7460020F3DD = {
 						CreatedOnToolsVersion = 7.2;
+						DevelopmentTeam = UXAE8HY6HE;
 						LastSwiftMigration = 0820;
 					};
 					A499A79D1C4DA7460020F3DD = {
@@ -1062,7 +1055,7 @@
 				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
-				DEVELOPMENT_TEAM = "";
+				DEVELOPMENT_TEAM = UXAE8HY6HE;
 				INFOPLIST_FILE = "genera-swift/Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
@@ -1081,7 +1074,7 @@
 				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
-				DEVELOPMENT_TEAM = "";
+				DEVELOPMENT_TEAM = UXAE8HY6HE;
 				INFOPLIST_FILE = "genera-swift/Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
