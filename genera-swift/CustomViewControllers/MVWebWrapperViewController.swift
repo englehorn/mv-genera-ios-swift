@@ -49,7 +49,6 @@ import WebKit
         //self.view.addGestureRecognizer(doubleTap)
         
         // Do any additional setup after loading the view, typically from a nib.
-        if os.majorVersion == 8{
             self.customUIWebView = UIWebView()
             self.customUIWebView?.delegate = self;
             customUIWebView!.backgroundColor = UIColor.clear
@@ -57,16 +56,6 @@ import WebKit
             customUIWebView!.scalesPageToFit = false;
            customUIWebView!.scrollView.addGestureRecognizer(doubleTap)
             self.view = self.customUIWebView
-        }
-        else{
-            self.customWKWebView = WKWebView()
-            customWKWebView?.backgroundColor = UIColor.clear
-            customWKWebView?.isOpaque = false
-            self.customWKWebView?.navigationDelegate  = self
-           self.customWKWebView?.scrollView.addGestureRecognizer(doubleTap)
-            self.view = self.customWKWebView
-        }
-        
         if ( !templateFilename.isEmpty) {
             setupTemplate()
         }
