@@ -124,7 +124,6 @@
 		A4AAAA0B1C4F5C910024BC53 /* Images in Resources */ = {isa = PBXBuildFile; fileRef = A4AAAA0A1C4F5C910024BC53 /* Images */; };
 		A4AAAA0D1C4F5CA10024BC53 /* Audio in Resources */ = {isa = PBXBuildFile; fileRef = A4AAAA0C1C4F5CA10024BC53 /* Audio */; };
 		A4AAAA0F1C4F5CB40024BC53 /* data.json in Resources */ = {isa = PBXBuildFile; fileRef = A4AAAA0E1C4F5CB40024BC53 /* data.json */; };
-		A4AC72381F42C25F00EB6D78 /* Interface-Images in Resources */ = {isa = PBXBuildFile; fileRef = A4AC72371F42C25F00EB6D78 /* Interface-Images */; };
 		A4AD24281CC5FA9900C2593C /* iPhoneMainTabBarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4AD24271CC5FA9900C2593C /* iPhoneMainTabBarController.swift */; };
 		A4AD242A1CC6013100C2593C /* iPadMainSplitViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4AD24291CC6013100C2593C /* iPadMainSplitViewController.swift */; };
 		A4AFEAB91CE43E72009A4F02 /* ViewImage.png in Resources */ = {isa = PBXBuildFile; fileRef = A4AFEAB61CE43E72009A4F02 /* ViewImage.png */; };
@@ -290,7 +289,6 @@
 		A4AAAA0A1C4F5C910024BC53 /* Images */ = {isa = PBXFileReference; lastKnownFileType = folder; path = Images; sourceTree = "<group>"; };
 		A4AAAA0C1C4F5CA10024BC53 /* Audio */ = {isa = PBXFileReference; lastKnownFileType = folder; path = Audio; sourceTree = "<group>"; };
 		A4AAAA0E1C4F5CB40024BC53 /* data.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; name = data.json; path = Data/data.json; sourceTree = "<group>"; };
-		A4AC72371F42C25F00EB6D78 /* Interface-Images */ = {isa = PBXFileReference; lastKnownFileType = folder; path = "Interface-Images"; sourceTree = "<group>"; };
 		A4AD24271CC5FA9900C2593C /* iPhoneMainTabBarController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; lineEnding = 0; name = iPhoneMainTabBarController.swift; path = CustomViewControllers/iPhoneMainTabBarController.swift; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
 		A4AD24291CC6013100C2593C /* iPadMainSplitViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; lineEnding = 0; name = iPadMainSplitViewController.swift; path = CustomViewControllers/iPadMainSplitViewController.swift; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
 		A4AFEAB61CE43E72009A4F02 /* ViewImage.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = ViewImage.png; path = "App Images/Default Icons/ViewImage.png"; sourceTree = "<group>"; };
@@ -340,7 +338,7 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		802523C4203F060600666366 /* Interface-Images */ = {
+		80AB24552059F1E000B5E19C /* Interface-Images */ = {
 			isa = PBXGroup;
 			children = (
 			);
@@ -456,13 +454,12 @@
 		A499A7871C4DA7460020F3DD /* genera-swift */ = {
 			isa = PBXGroup;
 			children = (
-				A4AC72371F42C25F00EB6D78 /* Interface-Images */,
-				802523C4203F060600666366 /* Interface-Images */,
 				A4C761701D4B299400B9A660 /* Icons */,
 				A4A380E21CD9CAE8006A25BE /* TestGroup */,
 				A49F96E01C73C806008B12F8 /* Storyboards */,
 				A4026D9C1C7304320047DFCC /* stylesheets */,
 				A4026D991C72F2600047DFCC /* CustomViews */,
+				80AB24552059F1E000B5E19C /* Interface-Images */,
 				A4A0A9B81C71760E00BECB6C /* Templates */,
 				A4D78D231C51AE480099D0FC /* ViewControllers */,
 				A4C761721D4B354800B9A660 /* View Controller NIB */,
@@ -828,7 +825,6 @@
 				A48532FF1C7566CA005A0C0A /* iphone_scarcity.png in Resources */,
 				A4A81E831D541786001CC471 /* iPhoneLaunch.png in Resources */,
 				A4AFEAC11CE449B1009A4F02 /* home_btn@2x.png in Resources */,
-				A4AC72381F42C25F00EB6D78 /* Interface-Images in Resources */,
 				A48532DA1C7566BD005A0C0A /* AudioTrackInactive.png in Resources */,
 				A43D72451EC54C3D00EF2B06 /* SecondaryTableViewCell.xib in Resources */,
 				A499CE2F1CED4624002BDB01 /* btn_groups.png in Resources */,
