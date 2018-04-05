@@ -51,7 +51,7 @@ import WebKit
         // Do any additional setup after loading the view, typically from a nib.
             self.customUIWebView = UIWebView()
             self.customUIWebView?.delegate = self;
-            customUIWebView!.backgroundColor = UIColor.clear
+            customUIWebView!.backgroundColor = UIColor.black
             customUIWebView!.isOpaque = false
             customUIWebView!.scalesPageToFit = false;
            customUIWebView!.scrollView.addGestureRecognizer(doubleTap)
