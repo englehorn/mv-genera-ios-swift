@@ -333,11 +333,11 @@ class SpeciSearchTableViewController: UITableViewController, UISearchResultsUpda
             [sortDescriptors release];
             [request release];
             */
-        if searchText.characters.count > 0 { //make sure there's something to search on
+        if searchText.count > 0 { //make sure there's something to search on
             do{
                 let fetchRequest:NSFetchRequest<NSFetchRequestResult> = NSFetchRequest(entityName: "Speci")
                 //Split search text on spaces to build predicate
-                let searchterms:[String] = searchText.characters.split{$0 == " "}.map(String.init)
+                let searchterms:[String] = searchText.split{$0 == " "}.map(String.init)
                 var searchQuery:String = ""
                 
                 if searchterms.count >= 1{
