@@ -59,7 +59,10 @@ class SpeciListTableViewController: UITableViewController, NSFetchedResultsContr
         // Uncomment the following line to display an Edit button in the navigation bar for this view controller.
         // self.navigationItem.rightBarButtonItem = self.editButtonItem()
         self.title = selectedGroup.label
-        self.tableView.rowHeight = 75.0;
+
+        // increase thumbnail size (AE)
+        self.tableView.rowHeight = 100.0
+
         //TODO - remove t
     }
 

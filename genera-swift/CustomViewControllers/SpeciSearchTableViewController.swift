@@ -58,7 +58,9 @@ class SpeciSearchTableViewController: UITableViewController, UISearchResultsUpda
         definesPresentationContext = true
         tableView.tableHeaderView = searchController.searchBar
       
+        // increase thumbnail size (AE)
         self.tableView.rowHeight = 75.0
+
         self.title = "Search"
      //   searchController.active = true
         // Uncomment the following line to preserve selection between presentations

@@ -51,7 +51,11 @@ class SpeciFullTableViewController: UITableViewController, NSFetchedResultsContr
             self.title = "Search"
         }
         
-        self.tableView.rowHeight = 75.0;
+        // increase thumbnail size (AE)
+        self.tableView.rowHeight = 100.0
+        
+        
+        
     }
 
     override func didReceiveMemoryWarning() {
