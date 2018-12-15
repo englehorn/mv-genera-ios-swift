@@ -141,7 +141,7 @@ class DetailTabBarViewController: UITabBarController, UIPageViewControllerDataSo
                         imageViewController = viewController as? UIPageViewController
                         imageViewController!.dataSource = self
                         let pageContentViewController = self.viewControllerAtIndex(0)
-                        imageViewController!.setViewControllers([pageContentViewController!], direction: UIPageViewControllerNavigationDirection.forward, animated: true, completion: nil)
+                        imageViewController!.setViewControllers([pageContentViewController!], direction: UIPageViewController.NavigationDirection.forward, animated: true, completion: nil)
                     }
                     if viewController is AudioTableViewController  {
                         audioViewController = viewController as? AudioTableViewController
