@@ -30,7 +30,8 @@ class ImageScrollView: UIScrollView, UIScrollViewDelegate {
         }
         
     }
-   weak var displayImage:UIImage?
+    
+    var displayImage:UIImage?
         {
         didSet{
             
