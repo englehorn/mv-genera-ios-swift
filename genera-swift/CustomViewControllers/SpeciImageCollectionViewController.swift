@@ -164,7 +164,7 @@ class SpeciImageCollectionViewController: UICollectionViewController {
     
     
     
-    func collectionView(_ collectionView: UICollectionView,
+    @objc func collectionView(_ collectionView: UICollectionView,
         layout collectionViewLayout: UICollectionViewLayout,
         sizeForItemAtIndexPath indexPath: IndexPath) -> CGSize
     {

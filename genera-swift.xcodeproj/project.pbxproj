@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		8042FB1421C4BDE50077E02E /* iphone_map.png in Resources */ = {isa = PBXBuildFile; fileRef = 8042FB1321C4BDE20077E02E /* iphone_map.png */; };
+		80FE8CAE21C4955C00683ACF /* iPadMapViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 80FE8CAC21C4955B00683ACF /* iPadMapViewController.swift */; };
+		80FE8CAF21C4955C00683ACF /* mapViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 80FE8CAD21C4955B00683ACF /* mapViewController.swift */; };
 		A4026D941C72F0F20047DFCC /* DetailTabBarViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4026D931C72F0F20047DFCC /* DetailTabBarViewController.swift */; };
 		A4026D961C72F18E0047DFCC /* SpeciImageCollectionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4026D951C72F18E0047DFCC /* SpeciImageCollectionViewController.swift */; };
 		A4026D981C72F2180047DFCC /* SpeciImageCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4026D971C72F2180047DFCC /* SpeciImageCollectionViewCell.swift */; };
@@ -166,6 +169,9 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		8042FB1321C4BDE20077E02E /* iphone_map.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = iphone_map.png; path = "App Images/Default Icons/iphone icons/iphone_map.png"; sourceTree = "<group>"; };
+		80FE8CAC21C4955B00683ACF /* iPadMapViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = iPadMapViewController.swift; sourceTree = "<group>"; };
+		80FE8CAD21C4955B00683ACF /* mapViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = mapViewController.swift; sourceTree = "<group>"; };
 		A4026D931C72F0F20047DFCC /* DetailTabBarViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; lineEnding = 0; name = DetailTabBarViewController.swift; path = CustomViewControllers/DetailTabBarViewController.swift; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
 		A4026D951C72F18E0047DFCC /* SpeciImageCollectionViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; lineEnding = 0; name = SpeciImageCollectionViewController.swift; path = CustomViewControllers/SpeciImageCollectionViewController.swift; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
 		A4026D971C72F2180047DFCC /* SpeciImageCollectionViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; lineEnding = 0; path = SpeciImageCollectionViewCell.swift; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
@@ -366,6 +372,7 @@
 		A485331A1C7566CF005A0C0A /* Phone Icons */ = {
 			isa = PBXGroup;
 			children = (
+				8042FB1321C4BDE20077E02E /* iphone_map.png */,
 				A48532DC1C7566CA005A0C0A /* iphone_audio.png */,
 				A48532DD1C7566CA005A0C0A /* iphone_details.png */,
 				A48532DE1C7566CA005A0C0A /* iphone_distribution.png */,
@@ -602,6 +609,8 @@
 		A4D78D231C51AE480099D0FC /* ViewControllers */ = {
 			isa = PBXGroup;
 			children = (
+				80FE8CAC21C4955B00683ACF /* iPadMapViewController.swift */,
+				80FE8CAD21C4955B00683ACF /* mapViewController.swift */,
 				A4D78D261C51B25D0099D0FC /* SpeciListTableViewController.swift */,
 				A42D03CD1C55C0280020666C /* SpeciSearchTableViewController.swift */,
 				A47AB61C1C5870DD00EE7CA6 /* SpeciFullTableViewController.swift */,
@@ -754,6 +763,7 @@
 				A48532CF1C7566BD005A0C0A /* AudioTrackActive2@2x.png in Resources */,
 				A499CE2E1CED4624002BDB01 /* btn_about.png in Resources */,
 				A4AFEAC31CE449B1009A4F02 /* PopOverSearch@2x.png in Resources */,
+				8042FB1421C4BDE50077E02E /* iphone_map.png in Resources */,
 				A4EF9E3B1D581A2500815553 /* icon_info.png in Resources */,
 				A48532D01C7566BD005A0C0A /* AudioTrackActive3.png in Resources */,
 				A4AFEABB1CE43E72009A4F02 /* ViewText.png in Resources */,
@@ -854,6 +864,7 @@
 				A499A7D51C4DDB6C0020F3DD /* Template+CoreDataProperties.swift in Sources */,
 				A4026D9B1C72F2890047DFCC /* ImageScrollView.swift in Sources */,
 				A4A9B0D61C76BE3B00CA536A /* SpeciImageViewController.swift in Sources */,
+				80FE8CAF21C4955C00683ACF /* mapViewController.swift in Sources */,
 				A491DD1C1D58510100E28C93 /* SuperGroup.swift in Sources */,
 				A49F96E41C73D083008B12F8 /* MainGalleryCollectionViewCell.swift in Sources */,
 				A4D78D271C51B25D0099D0FC /* SpeciListTableViewController.swift in Sources */,
@@ -872,6 +883,7 @@
 				A498CBDB1CE0141A00EC2E65 /* iPadHomeViewController.swift in Sources */,
 				A4A9B0D41C76BE1000CA536A /* TestPageViewController.swift in Sources */,
 				A49158791CDACC0300D9FD71 /* MVWebWrapperViewController.swift in Sources */,
+				80FE8CAE21C4955C00683ACF /* iPadMapViewController.swift in Sources */,
 				A4026D941C72F0F20047DFCC /* DetailTabBarViewController.swift in Sources */,
 				A4A81E861D542305001CC471 /* UIColor+fromString.swift in Sources */,
 				A499A7CD1C4DDB6C0020F3DD /* TemplateTab+CoreDataProperties.swift in Sources */,
